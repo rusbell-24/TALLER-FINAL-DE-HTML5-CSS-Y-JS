@@ -3,7 +3,6 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-
 }
 
 h2 {
@@ -17,10 +16,9 @@ label {
   width: 90%;
   height: 25px;
   margin: 20px auto;
-  
 }
 
-input{
+input {
   height: 100%;
   padding: 0 10px;
   border: 1px solid white;
@@ -30,11 +28,11 @@ input{
 button {
   width: 40%;
   height: 50px;
-  margin: 5px 10px ;
-  font-size: .9em;
+  margin: 5px 10px;
+  font-size: 0.9em;
   font-weight: bold;
   border-radius: 20px;
-  transition: .2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -47,7 +45,7 @@ button {
   text-align: center;
   background-color: #000039;
   border-radius: 30px;
-  box-shadow: 0 0  30px white;
+  box-shadow: 0 0 30px white;
 }
 
 .message {
@@ -69,7 +67,7 @@ button {
   border: 2px solid white;
 }
 
-.button-reset{
+.button-reset {
   background-color: #dfe19b;
 }
 
