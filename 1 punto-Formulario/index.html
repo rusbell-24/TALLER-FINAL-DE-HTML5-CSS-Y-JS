@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+  <link rel="stylesheet" href="/css/style.css">
   <title>Formulario</title>
 </head>
 <body>
+  <div class="container">
+    <form id="form" class="form">
+      <h2 class="form-title">Contactenos</h2>
+      <label>Nombre: <input id="name" class="input-name" type="text" placeholder="Ingrese su nombre"></label>
+      <label>Correo: <input id="email" class="input-email" type="email" placeholder="Ingrese su correo"></label>
+      <label>Asunto: <input id="mailSubject" class="input-mail-subject" type="text" placeholder="Ingrese el asunto"></label>
+      <textarea id="message" class="message" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+      <button class="button" type="submit">Enviar</button>
+      <button class="button-reset" type="button" onclick="clean();">Limpiar</button>
+    </form>
+  </div>
+
   
+  <!-- Archivo de JavaScript -->
+  <script src="/js/app.js"></script>
 </body>
 </html>
